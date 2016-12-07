@@ -19,6 +19,9 @@ inoremap <c-w> <ESC>ZZ
 nnoremap <F12> :w<CR>:!mingw32-make OS=win32 TAIL=-n17<CR>
 inoremap <F12> <ESC>:w<CR>:!mingw32-make OS=win32 TAIL=-n17<CR>
 
+nnoremap <F9> :syntax on<CR>
+inoremap <F9> <ESC>:syntax on<CR><INS>
+
 au BufNewFile,BufRead *.ypp set filetype=yacc
 au BufNewFile,BufRead *.lpp set filetype=lex
 au BufNewFile,BufRead *.hpp set filetype=cpp
