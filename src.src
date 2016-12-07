@@ -1,0 +1,14 @@
+# comment: winhome
+
+TITLE	= winhome
+ABOUT	= 'Windows %HOME% directory powered by Y script'
+AUTHOR	= 'Dmitry Ponyatov <dponyatov@gmail.com>'
+LICENSE	= 'GNU LesserGPL'
+GITHUB	= 'https://github.com/ponyatov/'+TITLE
+
+core		= [ ypp.ypp lpp.lpp hpp.hpp cpp.cpp Makefile ]
+files		= [ src.src log.log core .gitignore ]
+vim			= [ bat.bat _vimrc vimfiles\ftdetect\Y.vim vimfiles\syntax\Y.vim ]
+bat.bat		= [ @gvim -p files vim ]
+.gitignore	= [ *~ *.swp exe.exe log.log ypp.tab.?pp lex.yy.c ]
+
