@@ -9,7 +9,7 @@ if has("gui_running")
 endif
 
 syntax on
-set tabstop=4 shiftwidth=4
+set tabstop=4 shiftwidth=4 noexpandtab
 
 nnoremap <c-t> :tabf<space>
 nnoremap <c-w> ZZ
