@@ -1,0 +1,25 @@
+*~
+*.swp
+exe.exe
+log.log
+ypp.tab.?pp
+lex.yy.c
+
+.*
+NTUSER*
+AppData/
+Contacts/
+Desktop/
+Documents/
+Favorites/
+Downloads/
+Links/
+Music/
+Pictures/
+Searches/
+Tracing/
+Videos/
+_viminfo
+STMicro*/
+usb_driver/
+Saved Games/
