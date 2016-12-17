@@ -2,6 +2,7 @@
 " Maintainer: (c) Dmitry Ponyatov <dponyatov@gmail.com>, all rights reserved
 
 syntax match	Comment		"\v#.*"
+syntax region	Comment		start="#@" end="@#"
 syntax match	Number		"\v[0-9]+"
 syntax region	String		start="'" end="'"
 syntax match	Type		"\v[=@~:\(\)\[\]\{\}]"
