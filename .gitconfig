@@ -3,3 +3,7 @@
 	name = Dmitry Ponyatov
 [push]
 	default = simple
+
+[merge "mps"]
+	name = MPS merge driver
+	driver = "\"/C/Users/ponyatov/.MPS34/config/mps-merger.sh\" %O %A %B %L"
