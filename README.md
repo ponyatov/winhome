@@ -1,3 +1,4 @@
-# ponyhome
-# PONY workstation win home
-https://github.com/ponyatov/ponyhome
+# winhome
+# wi32 workstation's home files
+
+github: https://github.com/ponyatov/winhome
