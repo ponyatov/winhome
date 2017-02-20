@@ -5,6 +5,7 @@ log.log
 ypp.tab.?pp
 lex.yy.c
 
+.ssh/
 .*
 NTUSER*
 AppData/
@@ -23,3 +24,4 @@ _viminfo
 STMicro*/
 usb_driver/
 Saved Games/
+MPSSamples.3.4.3 
