@@ -16,8 +16,8 @@ nnoremap <c-w> ZZ
 inoremap <c-t> <ESC>:tabf<space>
 inoremap <c-w> <ESC>ZZ
 
-nnoremap <F12> :w<CR>:!mingw32-make OS=win32 EXE=.exe TAIL=-n17<CR>
-inoremap <F12> <ESC>:w<CR>:!mingw32-make OS=win32 EXE=.exe TAIL=-n17<CR>
+nnoremap <F12> :w<CR>:!mingw32-make OS=win32 RES=res.res EXE=.exe TAIL=-n17<CR>
+inoremap <F12> <ESC>:w<CR>:!mingw32-make OS=win32 RES=res.res EXE=.exe TAIL=-n17<CR>
 
 nnoremap <F9> :syntax on<CR>
 inoremap <F9> <ESC>:syntax on<CR><INS>
