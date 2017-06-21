@@ -25,3 +25,7 @@ STMicro*/
 usb_driver/
 Saved Games/
 MPSSamples*/
+
+VirtualBox VMs/
+dbHello/
+
