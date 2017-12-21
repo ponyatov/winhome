@@ -31,3 +31,6 @@ au BufNewFile,BufRead *.cpp set filetype=cpp
 au BufNewFile,BufRead *.log set autoread
 au BufNewFile,BufRead *.log set nowrap
 
+au BufNewFile,BufRead *.py imap <F11> <ESC>:w<CR>:!python %<CR>
+set guifont=Courier_New:h18:b:cRUSSIAN
+
