@@ -1,6 +1,7 @@
 source $VIMRUNTIME\..\_vimrc
 
-colorscheme darkblue
+#colorscheme darkblue
+colorscheme greenvt
 
 set number
 set colorcolumn=80
