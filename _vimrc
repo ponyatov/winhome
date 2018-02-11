@@ -33,5 +33,6 @@ au BufNewFile,BufRead *.log set autoread
 au BufNewFile,BufRead *.log set nowrap
 
 au BufNewFile,BufRead *.py imap <F11> <ESC>:w<CR>:!python %<CR>
+au BufNewFile,BufRead *.py set expandtab
 set guifont=Courier_New:h18:b:cRUSSIAN
 
