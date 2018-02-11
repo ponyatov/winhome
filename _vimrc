@@ -1,7 +1,9 @@
 source $VIMRUNTIME\..\_vimrc
 
 "colorscheme darkblue
+" fix broken LCD
 colorscheme greenvt
+set guifont=Courier_New:h18:b:cRUSSIAN
 
 set number
 set colorcolumn=80
@@ -34,5 +36,4 @@ au BufNewFile,BufRead *.log set nowrap
 
 au BufNewFile,BufRead *.py imap <F11> <ESC>:w<CR>:!python %<CR>
 au BufNewFile,BufRead *.py set expandtab
-set guifont=Courier_New:h18:b:cRUSSIAN
 
